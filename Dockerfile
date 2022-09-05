@@ -1,4 +1,4 @@
-FROM ghcr.io/viswanathbalusu/megarestbase@sha256:dd1903b2fc8fcc1ef40a951ebecf76d1708a83a4321cf6e9cc4025456a6a199a AS builder
+FROM ghcr.io/viswanathbalusu/megarestbase@sha256:7e7a5918c4d9ab026896b3b2878d21e8f1c0ec81f3f48249539552418a0288e5 AS builder
 
 ARG CPU_ARCH="amd64"
 ENV HOST_CPU_ARCH=$CPU_ARCH
